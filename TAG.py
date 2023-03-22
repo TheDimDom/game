@@ -175,7 +175,7 @@ def choose_individual():
             time.sleep(2)
             print("You stand up and walk back out of the door\n")
             time.sleep(2)
-            print("You foolish Naive, do you think you can win this game without information? the anser is NO\n")
+            print("You foolish nave, do you think you can win this game without information? The answer is NO\n")
             time.sleep(3)
             print(r"""
  @@@@@      @@@@@   @@@   @@ @@@@@@@       @@@@@@  @@   $$ @@@@@@@ @@@@@@
