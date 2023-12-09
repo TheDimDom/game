@@ -22,19 +22,19 @@ def hero_path():
 
 """)
     time.sleep(1)
-    print("It has been a long and hard journey back to Gotham Village,\n")
+    print("It has been a long and hard journey back to the village you grew up in,\n")
     time.sleep(1)
-    print("But you know all of your training has led to this.\n")
+    print("But you know all of your training and years away have led to this.\n")
     time.sleep(1)
-    print ("You see there is a notice board near Solomon Forest,\n")
+    print ("You go to the notice board at the edge of the forest,\n")
     time.sleep(1)
-    print("There is a quest nailed to the board from Sheriff Gordon about a missing Princess\n")
+    print("There you see a notice nailed onto the board about a missing Princess, you know this is your chance to prove yourself\n")
     time.sleep(1)
     print("Do you want to help in saving this Princess?\n")
     time.sleep(1)
     note_post=(input("Enter '1' for Yes or '2' for No: ")).lower()
     if note_post == ("1"):
-        print("\nYou choose to save the missing Princess from a beast in the Arkham Castle.\n")
+        print("\nYou choose to look for the missing Princess whom is believed to be held at the castle in the forest\n")
         time.sleep(1)
         print("You head down towards the forest to find a path.\n")
         time.sleep(1)
@@ -51,7 +51,7 @@ def hero_path():
         hero_path()
 
 def forest_path():
-    print("You enter Solomon Forest, it's dark and cold and you feel eyes on you as you travel through it.\n")
+    print("You enter the forest, it's dark and cold and you feel eyes on you as you travel through it.\n")
     time.sleep(1)
     print (r"""
                          .
@@ -92,7 +92,7 @@ def forest_path():
     if forest_path1 == ("1"):
         print("\nYou travel for what feels like hours through the dark forest,\n")
         time.sleep(1)
-        print("You eventually exit and see Arkham Castle near by.\n")
+        print("You eventually exit and see a castle near by.\n")
         time.sleep(1)
         door_choice()
     elif forest_path1== ("2"):
@@ -104,7 +104,7 @@ def forest_path():
     elif forest_path1==("3"):
             print("\nYou are never seen again,\n")
             time.sleep(1)
-            print("Some people say Grundy got them but no one dares to enter the forest to find out.\n")
+            print("Some people say they heard a scream but most refuse to talk about it.\n")
             time.sleep(1)
             print("Please try again the adventure must continue.\n")
             time.sleep(1)
@@ -194,7 +194,7 @@ def door_back():
             door_back()
 
 def door_choice ():
-    print("You enter the Arkham Castle\n")
+    print("You enter the castle\n")
     time.sleep(1)
     print("You start walking down a large long hall where you see three doors\n")
     time.sleep(1)
@@ -501,4 +501,3 @@ def game_over():
     restart_game_question()
 
 hero_path()
-
